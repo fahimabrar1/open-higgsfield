@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev --port 3000",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev --port 3000",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "brand": "node scripts/build-brand-assets.mjs"
   },
   "dependencies": {
